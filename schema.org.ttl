@@ -1,0 +1,39 @@
+PREFIX : <https://schema.org/>
+
+
+[]
+    a :LocalBusiness ;
+    :name "okgraph" ;
+    :description "Easily find everything" ;
+    :logo <https://okgraph.co/images/okgraph-logo.svg> ;
+    :image <https://okgraph.co/images/okgraph-logo.svg> ;
+    :url <https://okgraph.co/> ;
+    :email <mailto:info@okgraph.co> ;
+    :sameAs 
+        <https://twitter.com/okgraph?lang=en> ,
+        <https://www.facebook.com/okgraph> ,
+        <https://www.linkedin.com/company/okgraph> ,
+        <https://www.instagram.com/okgraph> ;
+    :telephone "61733988001" ;
+    :address [
+        a :PostalAddress ;
+        :addressLocality "Brisbane" ;
+        :addressRegion "QLD" ;
+        :postalCode "4000" ;
+        :addressCountry "AU" ;
+    ] ;
+    :geo [
+        a :GeoCoordinates ;
+        :latitude -27.5390403 ;
+        :longitude 153.0986051 ;
+    ] ;
+    :aggregateRating [
+        a :AggregateRating ;
+        :ratingValue 5 ;
+        :bestRating 5 ;
+        :ratingCount 28 ;
+    ] ;
+.
+
+
+
